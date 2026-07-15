@@ -37,9 +37,23 @@ public class RecursionBasics {
     // TODO Problem 4: Sum of First N Numbers
 
     public static int sumNumbers(int n){
-        if(n ==0)return 0;
+        if(n ==1)return 1;
         return n+sumNumbers(n-1);
     }
+
+    // TODO factorial of n numbers
+
+    public static int factorial(int n){
+        if(n ==0)return 1;
+        return n* factorial(n-1);
+    }
+
+    // TODO Reverse an Array Using Recursion
+
+//    public static int reverseArray(int[] arr) {
+//
+//    }
+
 
 
 }
